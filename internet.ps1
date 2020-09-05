@@ -24,6 +24,7 @@ $ie.document.getElementById("username").value= "$username"
 $ie.document.getElementById("passwordInput").value = "$password" 
 $ie.document.getElementById("submitButton").Click()
 start-sleep 10
+$ie.Parent.Quit()
 }
 
 # Finally, we clean up the http request by closing it.
